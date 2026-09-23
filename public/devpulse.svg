@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Dark Slate Rounded Background -->
+  <rect width="512" height="512" rx="128" fill="#0f172a" />
+  
+  <!-- Subtle Glass Glow Ring -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="8" />
+
+  <!-- Electric Cyan Pulse Line -->
+  <path 
+    d="M 80 256 H 170 L 210 140 L 260 370 L 300 220 L 330 256 H 432" 
+    fill="none" 
+    stroke="#06b6d4" 
+    stroke-width="36" 
+    stroke-linecap="round" 
+    stroke-linejoin="round" 
+  />
+
+  <!-- Pulsing Terminal Dot -->
+  <circle cx="432" cy="256" r="20" fill="#22d3ee" />
+</svg>
