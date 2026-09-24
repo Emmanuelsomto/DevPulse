@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Latest from "./pages/Latest";
 import Topics from "./pages/Topics";
 import Bookmarks from "./pages/Bookmarks";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/bookmarks" element={<Bookmarks />} />
         <Route path="/latest" element={<Latest />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
