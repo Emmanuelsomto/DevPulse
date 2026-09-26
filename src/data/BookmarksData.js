@@ -25,4 +25,28 @@ export const bookmarksData = [
     category: "API",
     url: "https://jikan.moe",
   },
+
+  {
+    id: 3,
+    title: "Git & GitHub Documentation",
+    description: "Official guide on version control commands, branching strategies, and remote repository workflows.",
+    category: "Version Control",
+    url: "https://git-scm.com/doc",
+  },
+
+  {
+    id: 4,
+    title: "Docker Reference Documentation",
+    description: "Guides on writing Dockerfiles, managing container images, and containerization best practices.",
+    category: "Docker",
+    url: "https://docs.docker.com",
+  },
+
+  {
+    id: 5,
+    title: "Linux Command Line Reference",
+    description: "Essential terminal commands, file permissions, and system administration manuals.",
+    category: "Linux",
+    url: "https://man7.org/linux/man-pages/",
+  }
 ];
