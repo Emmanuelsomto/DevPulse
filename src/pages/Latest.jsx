@@ -1,6 +1,6 @@
 export default function Latest() {
   return (
-    <div>
+    <div clasName="text-white mt-34">
       
     </div>
   )
