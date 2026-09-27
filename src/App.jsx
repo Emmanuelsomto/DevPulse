@@ -6,6 +6,7 @@ import Latest from "./pages/Latest";
 import Topics from "./pages/Topics";
 import Bookmarks from "./pages/Bookmarks";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/latest" element={<Latest />} />
       </Routes>
       <Footer />
+
+      <Analytics />
     </div>
   );
 }
