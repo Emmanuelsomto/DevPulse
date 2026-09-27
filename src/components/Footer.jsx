@@ -2,7 +2,7 @@ import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="mt-24 text-white flex flex-col justify-center items-center gap-4 text-center mb-16 mx-8">
+    <footer className="mt-10 text-white flex flex-col justify-center items-center gap-4 text-center mb-16 mx-8">
       <h3 className="font-Poppins text-2xl md:text-4xl text-[#3b82f6] font-bold">
         DevPulse
       </h3>
