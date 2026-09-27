@@ -12,7 +12,7 @@ export default function Footer() {
 
       <div className="flex flex-row mt-6 gap-6 mb-4">
         <a
-          href="ttps://x.com/Web3Wanderer9"
+          href="https://x.com/Web3Wanderer9"
           target="_blank"
           rel="noopener noreferrer"
         >
